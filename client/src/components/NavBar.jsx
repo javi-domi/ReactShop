@@ -30,13 +30,14 @@ const SearchContainer = styled.div`
   margin-left: 25px;
   display: flex;
   align-items: center;
+  border: 1px solid black;
 `;
 
 const Input = styled.input`
-  border: 1px solid black;
+  border: none;
   background-color: transparent;
-  border-radius: 6px;
-  padding: 6px;
+  padding: 4px;
+  outline: none;
 `;
 
 const Center = styled.div`
